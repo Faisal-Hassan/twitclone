@@ -1,1 +1,4 @@
-# empty
+faisal:
+  name: Faisal Example
+  email: faisal@example.com
+  password_digest: "password"
