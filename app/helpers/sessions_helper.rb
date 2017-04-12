@@ -15,4 +15,11 @@ module SessionsHelper
     !current_user.nil?
   end
   
+  # Logs out signed in user
+  def log_out
+    session.delete(:user_id)
+    @current_user = nil
+    
+  end
+  
 end
